@@ -11,21 +11,10 @@ var bodyParser = require('body-parser');
 
 var producto = require('./controllers/producto')
 
-
-//var mongoose = require('mongoose');
-//mongoose.Promise = global.Promise;
-
-//mongoose.connect('mongodb://192.168.1.142/mqtt')
-  // .then(() => console.log('connection succesful'))
- //  .catch((err) => console.error(err));
-
-//var passport = require('passport');
-//var LocalStrategy = require('passport-local').Strategy;
-
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname + '/views'));
 app.set('view engine', 'jade');
 
 app.use(favicon());
@@ -35,27 +24,16 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.use(require('express-session')({
-//    secret: 'keyboard cat',
-//    resave: false,
-//    saveUninitialized: false
-//}));
-//app.use(passport.initialize());
-//app.use(passport.session());
-
-////app.use('/', routes);
-////app.use('/users', users);
-
-
-/////var User = require('./models');
-//passport.use(new LocalStrategy(User.authenticate()));
-//passport.serializeUser(User.serializeUser());
-//passport.deserializeUser(User.deserializeUser());
-
-
 ////for the new thing od nodehispano.com
-app.get('/', producto.index)
+app.get('/', producto.get)
 //we call the function index which is in producto.js
+/////app.get('/',database.
+app.get('/', function(req,res){
+
+	res.render('template.js');
+
+});
+
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
