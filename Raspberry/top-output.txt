@@ -1,0 +1,72 @@
+top - 08:15:10 up 57 min,  4 users,  load average: 0.15, 0.11, 0.09
+Tasks: 130 total,   1 running, 129 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.1 us,  1.5 sy,  0.0 ni, 96.2 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :   444532 total,   170508 free,    76020 used,   198004 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   315640 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 1360 pi        20   0    8100   3192   2728 R 20.8  0.7   0:00.17 top
+    1 root      20   0   27048   5996   4836 S  0.0  1.3   0:03.49 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.01 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.87 ksoftirqd/0
+
+top - 08:15:13 up 57 min,  4 users,  load average: 0.14, 0.11, 0.09
+Tasks: 130 total,   1 running, 129 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  1.3 sy,  0.0 ni, 97.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :   444532 total,   170508 free,    76008 used,   198016 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   315644 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 1360 pi        20   0    8100   3200   2728 R  2.9  0.7   0:00.26 top
+
+
+top - 08:15:16 up 57 min,  4 users,  load average: 0.13, 0.11, 0.09
+Tasks: 130 total,   1 running, 129 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  1.9 sy,  0.0 ni, 95.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :   444532 total,   170508 free,    75996 used,   198028 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   315644 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 1360 pi        20   0    8100   3200   2728 R  3.2  0.7   0:00.36 top
+  230 avahi     20   0    6516   3260   2780 S  0.3  0.7   0:04.22 avahi-daemon
+  374 root      20   0   87572  33184  23000 S  0.3  7.5   0:05.65 Xorg
+  
+top - 08:15:19 up 57 min,  4 users,  load average: 0.13, 0.11, 0.09
+Tasks: 131 total,   1 running, 130 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  4.2 sy,  0.0 ni, 83.7 id,  5.8 wa,  0.0 hi,  0.3 si,  0.0 st
+KiB Mem :   444532 total,   165732 free,    76556 used,   202244 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   315076 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 1360 pi        20   0    8100   3200   2728 R  2.6  0.7   0:00.44 top
+ 1363 pi        20   0  100812  10412   8840 D  2.3  2.3   0:00.07 node
+ 1288 pi        20   0    6172   4292   2932 S  1.9  1.0   0:00.73 bash
+ 1340 root      20   0       0      0      0 S  0.6  0.0   0:00.35 kworker/u2:1
+ 
+
+top - 08:15:22 up 57 min,  4 users,  load average: 0.28, 0.14, 0.10
+Tasks: 131 total,   2 running, 129 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 89.5 us,  5.1 sy,  0.0 ni,  0.0 id,  5.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :   444532 total,   151492 free,    86152 used,   206888 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   305436 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 1363 pi        20   0  141084  22900  13052 R 91.3  5.2   0:02.91 node
+ 1360 pi        20   0    8100   3200   2728 R  2.6  0.7   0:00.52 top
+   69 root      20   0       0      0      0 S  1.3  0.0   0:01.25 mmcqd/0
+  574 pi        20   0  134444  23952  19396 S  0.3  5.4   0:17.78 lxpanel
+    1 root      20   0   27048   5996   4836 S  0.0  1.3   0:03.49 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.01 kthreadd
+
+
+top - 08:15:25 up 57 min,  4 users,  load average: 0.28, 0.14, 0.10
+Tasks: 131 total,   2 running, 129 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.6 us,  4.5 sy,  0.0 ni,  1.6 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st
+KiB Mem :   444532 total,   147648 free,    89988 used,   206896 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   301600 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 1363 pi        20   0  143132  26868  13180 R 94.3  6.0   0:05.88 node
+ 1360 pi        20   0    8100   3200   2728 R  2.2  0.7   0:00.59 top
+   66 root     -51   0       0      0      0 S  0.3  0.0   0:02.32 irq/86-mmc1
+
